@@ -25,7 +25,7 @@
           
 Now prepare Visual Studio:
 1) Under 'Tools' --> 'Extensions and Updates' Deinstall evtl. installed newer Versions of TinyCLR Project System
-2) Download the file 
+2) Download the file TinyCLROSProjectSystemv1.0.0.vsix
 
 
 
