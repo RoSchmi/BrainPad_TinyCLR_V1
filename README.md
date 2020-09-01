@@ -23,9 +23,16 @@
           then, when continuing 'C' are appearing on the screen: --> File --> Transfer --> XModem --> Send –> Set Option ‘1K’ --> select ‘FEZCLR Firmware v1.0.0.glb’
           (important: don't forget to activate the '1K' Checkbox)
           
-Now prepare Visual Studio:
+#### Prepare Visual Studio:
 1) Under 'Tools' --> 'Extensions and Updates' Deinstall evtl. installed newer Versions of TinyCLR Project System
-2) Download the file TinyCLROSProjectSystemv1.0.0.vsix
+2) Download the file 'TinyCLR OS ProjectSystemv1.0.0.vsix' from this repository on your PC and doubleClick
+    This installs the correct ProjectSystem for TinyCLR V1.0
+    Important: When it is installed --> Uncheck the Option for Automatic Update of the Project System, otherwise after the next
+    start of Visual Studio the newest GHI Project System is loaded and TinyCLR V1 will not longer work.
+3) Copy the needed TinyCLR Libraries (from this Repo) into a folder on your PC and select this folder as a private NuGet PacketSource.
+4) Install the NuGet Packages 'GHIElectronics.TinyCLR.Core' and 'GHIElectronics.TinyCLR.BrainPad' which must be Version 1.0.0
+
+### Now you should be able to create TinyCLR V1.0.0 Apps for the BrainPad
 
 
 
